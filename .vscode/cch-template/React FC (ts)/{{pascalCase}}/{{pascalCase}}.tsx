@@ -1,6 +1,9 @@
-import { FC } from 'react';
-import { {{pascalCase}}Props } from '.';
+import { FC } from 'react'
+import { {{pascalCase}}Props } from '.'
+import './{{pascalCase}}.css'
 
-export const {{pascalCase}}: FC<{{pascalCase}}Props> = (props) => {
-	return <div {...props}></div>;
-};
+const {{pascalCase}}: FC<{{pascalCase}}Props> = (props) => {
+	return <div {...props}></div>
+}
+
+export default {pascalCase}
